@@ -3,6 +3,7 @@
 1. brew update
 2. brew install go
 3. create go file, `hello.go`
+4. install go extension `Go`
 4. if you see message that 'the "go-outline" command is not available ~', should click to `install-all` button.
 5. You can see out put
     ```
