@@ -11,9 +11,10 @@
   )
   // 이렇게 iota라고 해놓으면 알아서 0부터 1씩 증가됨, Red=0, ..., Green=2 
   const(
-      Red int = iota
+      Red int = iota + 1
       Blue
       Green
   )
-  // 선언하는 타입도 int로 같다면 이렇게 생략할 수 있음
+  // 선언하는 타입도 int로 같다면 이렇게 생략할 수 있음, 이러면 iota + 1 이니까 1부터 3까지
   ```
+- Bitflag
