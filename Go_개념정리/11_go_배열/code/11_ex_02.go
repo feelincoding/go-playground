@@ -21,6 +21,7 @@ func main() {
 
 	fmt.Println("--------------------------------")
 	a[0] = 1000
+	b[1] = 2000
 	fmt.Println(a)
 	fmt.Println(&a[0])
 	fmt.Println(b)
