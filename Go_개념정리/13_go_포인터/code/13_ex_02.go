@@ -34,4 +34,10 @@ func main() {
 	fmt.Println(data)
 	ChangeData4(&data)
 	fmt.Println(data)
+
+	fmt.Println("===========================")
+	var p2 = new(Data)
+	p2 = &data
+	ChangeData2(*p2)
+	fmt.Println(data)
 }
