@@ -9,3 +9,4 @@ func main() {
 	fmt.Println("a:", a, "b:", b)
 	fmt.Printf("a:%d b:%f\n", a, b)
 }
+ 
