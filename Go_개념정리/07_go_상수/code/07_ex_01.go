@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-const (
+const (// bit flag 에 대한 설명
 	MasterRoom uint8 = 1 << iota
 	LivingRoom
 	BathRoom
