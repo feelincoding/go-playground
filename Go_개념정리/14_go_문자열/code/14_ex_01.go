@@ -21,4 +21,8 @@ func main() {
 	for i := 0; i < len(arr); i++ {
 		fmt.Printf("타입: %T 값: %d 문자값: %c\n", arr[i], arr[i], arr[i])
 	}
+	fmt.Println("=====")
+	for _, v := range str {
+		fmt.Printf("타입: %T 값: %d 문자값: %c\n", v, v, v)
+	}
 }
