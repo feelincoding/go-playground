@@ -25,4 +25,13 @@ func main() {
 	for _, v := range str {
 		fmt.Printf("타입: %T 값: %d 문자값: %c\n", v, v, v)
 	}
+
+	var str2 string = "Hello World"
+	var slice2 []byte = []byte(str2)
+
+	slice2[0] = 'h'
+	fmt.Println(str2)
+	fmt.Println(string(slice2))
+	fmt.Printf("%s\n", slice2)
+	fmt.Printf("%v\n", slice2)
 }
